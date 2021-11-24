@@ -1,0 +1,24 @@
+Cuando toca recorres un array, muchas veces es mejor guardar lo que necesitamos
+de un elemento del arreglo en un diccionario, de esta manera cuando se
+pasa a los siguientes elementos, se analiza en el diccionario, 
+y asi podriamos convertir la complejidad a O(n)
+
+
+2.
+Se puede meter un indice no valido en un if
+if i == len(grid)-1 or grid[i+1][j] == 0:
+                    perimeter += 1
+
+por ejemplo aqui, el grid[i+1][j] ya esta fuera del array, pero no marca problema
+si el i == len(grid)-1 si funciona.
+
+
+NUMEROS BINARIOS
+#para mantener todos los bits con sus 0's a la izq, se utiliza en 
+#formato de 32 bits
+    #ejemplo:
+    x = 9
+    aux = str(f'{x:032b}')
+    print(aux)  
+    #output: 00000000000000000000000000001001
+    
