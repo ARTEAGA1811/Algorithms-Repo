@@ -22,6 +22,8 @@ class MyFile:
                     f.write(line)
                 else:
                     print("Link deleted")
+        
+        f.close()
     
 
 def main():
@@ -32,6 +34,7 @@ def main():
     elif option == 2:
         link = input("Link to delete: ")
         myfile.deleteLink(link)
+    
 
     
 main()

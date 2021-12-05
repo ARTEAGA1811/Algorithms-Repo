@@ -1,3 +1,4 @@
+#https://leetcode.com/problems/decode-ways/
 def solucionar(s:str) ->int:
     if s[0] == '0': return 0 #si empieza con 0 no hay soluciones posibles
     logs = {len(s):1}   #evita ir por el mismo camino más de una vez.
