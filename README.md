@@ -1,2 +1,2 @@
 # Algorithms-Repo
-This repo contains many types of algorithms that I have made.
+Some programming exercises I've solved.
